@@ -1,4 +1,4 @@
-package cts;
+package cts.seminar2;
 
     public class Angajat extends Aplicant{
         private String ocupatie;

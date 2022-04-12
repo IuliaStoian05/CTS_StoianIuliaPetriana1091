@@ -1,7 +1,5 @@
-package cts;
+package cts.seminar2;
 
-
-import java.util.Arrays;
 
 public class Student extends Aplicant {
     protected String facultate;

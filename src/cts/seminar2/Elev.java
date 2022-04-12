@@ -1,6 +1,4 @@
-package cts;
-
-import java.util.Arrays;
+package cts.seminar2;
 
 public class Elev extends Aplicant{
     private int clasa;

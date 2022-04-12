@@ -1,4 +1,4 @@
-package cts;
+package cts.seminar2;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
