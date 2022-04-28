@@ -1,5 +1,6 @@
 package cts.seminar3_4;
-    public interface Builder {
+
+public interface Builder {
         Autobuz build();
     }
 

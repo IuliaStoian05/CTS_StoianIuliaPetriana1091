@@ -1,9 +1,9 @@
 package cts.seminar3_4;
 
 
-public class AutobuzBuilder implements Builder{
+public class AutobuzBuilder implements Builder {
     private String model;
-    private String numeSofet;
+    private String numeSofer;
     private String numarInmatriculare;
     private boolean stop;
     private boolean openDoors;
@@ -12,7 +12,7 @@ public class AutobuzBuilder implements Builder{
 
     public AutobuzBuilder() {
         model = "Mercedes";
-        numeSofet = "Dorel";
+        numeSofer = "Dorel";
         numarInmatriculare = "B-555-STB";
         stop = true;
         openDoors = true;
@@ -23,7 +23,7 @@ public class AutobuzBuilder implements Builder{
 
     @Override
     public Autobuz build() {
-        return new Autobuz(model, numeSofet, numarInmatriculare, stop, openDoors, text, nrLinie);
+        return new Autobuz(model, numeSofer, numarInmatriculare, stop, openDoors, text, nrLinie);
     }
 
     public AutobuzBuilder setModel(String model){
@@ -31,7 +31,7 @@ public class AutobuzBuilder implements Builder{
         return this;
     }
     public AutobuzBuilder setNumeSofer(String NumeSofer){
-        this.numeSofet = NumeSofer;
+        this.numeSofer = NumeSofer;
         return this;
     }
 

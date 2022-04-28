@@ -2,16 +2,16 @@ package cts.seminar3_4;
 
     public class Autobuz {
         private String model;
-        private String numeSofet;
+        private String numeSofer;
         private String numarInmatriculare;
         private boolean stop;
         private boolean openDoors;
         private String text;
         private String nrLinie;
 
-        public Autobuz(String model, String numeSofet, String numarInmatriculare, boolean stop, boolean openDoors, String text, String nrLinie) {
+        public Autobuz(String model, String numeSofer, String numarInmatriculare, boolean stop, boolean openDoors, String text, String nrLinie) {
             this.model = model;
-            this.numeSofet = numeSofet;
+            this.numeSofer = numeSofer;
             this.numarInmatriculare = numarInmatriculare;
             this.stop = stop;
             this.openDoors = openDoors;
@@ -21,7 +21,7 @@ package cts.seminar3_4;
 
         Autobuz() {
             model = "Mercedes";
-            numeSofet = "Dorel";
+            numeSofer = "Dorel";
             numarInmatriculare = "B-555-STB";
             stop = true;
             openDoors = true;
@@ -33,8 +33,8 @@ package cts.seminar3_4;
             this.model = model;
         }
 
-        void setNumeSofet(String numeSofet) {
-            this.numeSofet = numeSofet;
+        void setNumeSofer(String numeSofer) {
+            this.numeSofer = numeSofer;
         }
 
         void setNumarInmatriculare(String numarInmatriculare) {
@@ -61,7 +61,7 @@ package cts.seminar3_4;
         public String toString() {
             final StringBuilder sb = new StringBuilder("Autobuz{");
             sb.append("model='").append(model).append('\'');
-            sb.append(", numeSofet='").append(numeSofet).append('\'');
+            sb.append(", numeSofer='").append(numeSofer).append('\'');
             sb.append(", numarInmatriculare='").append(numarInmatriculare).append('\'');
             sb.append(", stop=").append(stop);
             sb.append(", openDoors=").append(openDoors);

@@ -1,6 +1,6 @@
 package cts.seminar6_7.flyweight;
 
-public class Autobuz implements AutobuzLinie{
+public class Autobuz{
     private String model;
     private int anFabricatie;
     private int nrLocuri;
@@ -36,7 +36,13 @@ public class Autobuz implements AutobuzLinie{
     }
 
     @Override
-    public void afiseazaDescriere(Autobuz autobuz) {
+    public String toString() {
+        final StringBuffer sb = new StringBuffer("Autobuz{");
+        sb.append("model='").append(model).append('\'');
+        sb.append(", anFabricatie=").append(anFabricatie);
+        sb.append(", nrLocuri=").append(nrLocuri);
+        sb.append('}');
+        return sb.toString();
 
     }
 }
