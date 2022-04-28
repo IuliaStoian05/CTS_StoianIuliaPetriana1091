@@ -1,4 +1,4 @@
-package cts.seminar3_4;
+package cts.seminar3_4.singleton;
 
     public class SoferAutobuz {
         private String nume;
