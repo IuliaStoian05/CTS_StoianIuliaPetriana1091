@@ -1,7 +1,6 @@
 package cts.seminar7_8.decorator;
 
 public class DecoratorConcret extends DecoratorAbstract{
-
     private String mesaj;
     public DecoratorConcret(Printer printer, String string) {
         super(printer);
@@ -10,9 +9,5 @@ public class DecoratorConcret extends DecoratorAbstract{
     @Override
     public void printeazaMesaj() {
         System.out.println(mesaj);
-
     }
-
-
-
 }

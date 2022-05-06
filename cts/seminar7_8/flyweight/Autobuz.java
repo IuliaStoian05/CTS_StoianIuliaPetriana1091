@@ -10,7 +10,6 @@ public class Autobuz{
         this.anFabricatie = anFabricatie;
         this.nrLocuri = nrLocuri;
     }
-
     public String getModel() {
         return model;
     }
@@ -34,7 +33,6 @@ public class Autobuz{
     public void setNrLocuri(int nrLocuri) {
         this.nrLocuri = nrLocuri;
     }
-
     @Override
     public String toString() {
         final StringBuffer sb = new StringBuffer("Autobuz{");
@@ -43,6 +41,5 @@ public class Autobuz{
         sb.append(", nrLocuri=").append(nrLocuri);
         sb.append('}');
         return sb.toString();
-
     }
 }

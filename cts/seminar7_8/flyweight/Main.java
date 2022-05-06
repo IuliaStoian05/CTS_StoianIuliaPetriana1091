@@ -1,6 +1,5 @@
 package cts.seminar7_8.flyweight;
 
-
 public class Main {
     private static void functie(LinieFactory factory){
         Autobuz autobuz = new Autobuz("Mercedes",2022,40);

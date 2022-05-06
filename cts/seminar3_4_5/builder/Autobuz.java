@@ -1,6 +1,11 @@
 package cts.seminar3_4_5.builder;
 
         public class Autobuz {
+            // atribute
+            // Autobuz(){ atribut = "valoare" ...}
+            // constructor cu toti param
+            //setteri pt toate atributele
+            // toString
             private String model;
             private String numeSofer;
             private String nrInmatriculare;
@@ -9,7 +14,6 @@ package cts.seminar3_4_5.builder;
             private String text;
             private Integer nrLinie;
             private Boolean isNew;
-
             Autobuz() {
                 model = "Mercedes";
                 numeSofer = "Dorel";

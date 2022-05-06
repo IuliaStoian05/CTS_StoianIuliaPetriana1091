@@ -2,7 +2,10 @@ package cts.seminar3_4_5.builder;
 
 
 public class AutobuzBuilder1 implements Builder{
-
+// private Autobuz autobuz;
+    //constructor fara param
+    //overide method
+    //setteri
     private Autobuz autobuz;
 
     public AutobuzBuilder1(){

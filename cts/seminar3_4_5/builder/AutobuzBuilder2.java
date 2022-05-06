@@ -1,6 +1,10 @@
 package cts.seminar3_4_5.builder;
 
 public class AutobuzBuilder2 implements Builder {
+    // atributele
+    // public AutobuzBuilder2(){ atribut = "valoare" }
+    // override metoda din interfata
+    // setterii
     private String model;
     private String numeSofer;
     private String nrInmatriculare;

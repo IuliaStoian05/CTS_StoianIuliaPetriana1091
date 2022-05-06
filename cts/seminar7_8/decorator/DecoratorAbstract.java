@@ -5,7 +5,6 @@ public abstract class DecoratorAbstract implements Printer{
 
     public abstract void printeazaMesaj();
 
-
     public DecoratorAbstract(Printer printer) {
         super();
         this.printer = printer;
@@ -15,6 +14,5 @@ public abstract class DecoratorAbstract implements Printer{
         printer.printeazaBilet();
 
     }
-
 }
 

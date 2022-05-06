@@ -3,11 +3,9 @@ package cts.seminar7_8.proxy;
 public class AutobuzDeNoapte implements MijlocTransport {
     Autobuz autobuz;
 
-
     public AutobuzDeNoapte(Autobuz autobuz) {
         this.autobuz = autobuz;
     }
-
     @Override
     public void opresteInStatie() {
         if (autobuz.getNrCalatori() > 0) {
@@ -15,13 +13,10 @@ public class AutobuzDeNoapte implements MijlocTransport {
         } else {
             System.out.println("Nu opreste in statie");
         }
-
     }
-
     @Override
     public void setNrCalatori(int nrCalatori) {
         this.setNrCalatori(nrCalatori);
-
     }
 }
 	

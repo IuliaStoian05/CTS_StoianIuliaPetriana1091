@@ -10,7 +10,5 @@ public class Main {
         autobuz1.setNrCalatori(0);
         MijlocTransport autobuzDeNoapte = new AutobuzDeNoapte((Autobuz) autobuz1);
         autobuzDeNoapte.opresteInStatie();
-
     }
-
 }

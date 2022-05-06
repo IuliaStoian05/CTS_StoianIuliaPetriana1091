@@ -1,7 +1,5 @@
 package cts.seminar6.facade;
 
-
-
 public class Autobuz {
     public void deschideUsaFata(){
         System.out.println("Usa fata deschisa!");

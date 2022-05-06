@@ -21,16 +21,13 @@ public class Autobuz implements MijlocTransport {
         return "Autobuz [numeSofer=" + model + ", nrLocuri=" + nrLocuri + ", nrCalatori=" + nrCalatori + "]";
     }
 
-
     @Override
     public void opresteInStatie() {
         System.out.println("Autobuzul a oprit in statie cu " + this.nrCalatori);
-
     }
 
     @Override
     public void setNrCalatori(int nrCalatori) {
         this.nrCalatori = nrCalatori;
-
     }
 }
