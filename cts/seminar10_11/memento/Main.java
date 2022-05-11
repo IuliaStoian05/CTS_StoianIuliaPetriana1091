@@ -1,4 +1,4 @@
-package cts.seminar10.memento;
+package cts.seminar10_11.memento;
 
 public class Main {
     public static void main(String[] args) {

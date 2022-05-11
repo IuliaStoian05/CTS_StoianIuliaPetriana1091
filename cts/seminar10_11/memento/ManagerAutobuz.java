@@ -1,4 +1,4 @@
-package cts.seminar10.memento;
+package cts.seminar10_11.memento;
 
 import java.util.ArrayList;
 import java.util.List;

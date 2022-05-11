@@ -1,6 +1,4 @@
-package cts.seminar10.state;
-
-import javax.naming.InitialContext;
+package cts.seminar10_11.state;
 
 public class Autobuz {
 

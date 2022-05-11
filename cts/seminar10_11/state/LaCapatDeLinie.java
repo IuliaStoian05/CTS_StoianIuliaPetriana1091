@@ -1,4 +1,4 @@
-package cts.seminar10.state;
+package cts.seminar10_11.state;
 
 public class LaCapatDeLinie implements StareAutobuz {
     public void modificaStare(Autobuz autobuz) {
