@@ -12,7 +12,6 @@ package cts.seminar2;
         }
         public Angajat() {
             super();
-
         }
 
         @Override
