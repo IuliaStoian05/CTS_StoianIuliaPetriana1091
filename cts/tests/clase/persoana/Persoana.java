@@ -1,4 +1,4 @@
-package cts.testarePersoana;
+package cts.tests.clase.persoana;
 
 
 import java.util.Calendar;

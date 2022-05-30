@@ -1,5 +1,6 @@
-package cts.tests;
+package cts.tests.teste.matematicaTests;
 
+import cts.tests.clase.matematica.Matematica;
 import org.junit.Before;
 import org.junit.Test;
 

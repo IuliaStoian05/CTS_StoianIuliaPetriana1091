@@ -1,29 +1,46 @@
-package cts.tests;
+package cts.tests.teste.persoanaTests;
 
 import cts.exceptii.ExceptieCNPGresit;
-import cts.testarePersoana.Persoana;
+import cts.tests.clase.persoana.Persoana;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class PersoanaTest2 {
+    private Persoana persoana;
+    //Right-BICEP
     @Test
-    public void rightTestGetVarsta() {
-        Persoana persoana = new Persoana("sda", "1002056789012");
-        assertEquals(210, persoana.getVarsta());
+    public void getVarstaRight() {
+        persoana = new Persoana("Teodora", "6000202263498");
+        int varsta=persoana.getVarsta();
+        assertEquals(22,varsta);
     }
 
     @Test
-    public void boundaryCheckGetVarsta1() {
-        Persoana persoana1 = new Persoana("sda", "6221005678012");
-        assertEquals(0, persoana1.getVarsta());
+    public void getVarstaBoundary() {
+        persoana = new Persoana("Teodora", "3000101263498");
+        int varsta=persoana.getVarsta();
+        assertEquals(222,varsta);
     }
 
     @Test
-    public void boundaryCheckGetVarsta2() {
-        Persoana persoana2 = new Persoana("sda", "5001001069012");
-        assertEquals(21, persoana2.getVarsta());
+    public void getVarstaBoundary2() {
+        persoana = new Persoana("Teodora", "2991231263498");
+        int varsta=persoana.getVarsta();
+        assertEquals(22,varsta);
+    }
+    @Test
+    public void getVarstaBoundary3() {
+        persoana = new Persoana("Teodora", "6220517263498");
+        int varsta=persoana.getVarsta();
+        assertEquals(0,varsta);
+    }
+    @Test
+    public void getVarstaBoundary4() {
+        persoana = new Persoana("Teodora", "6040518263498");
+        int varsta=persoana.getVarsta();
+        assertEquals(17,varsta);
     }
 
     @Test(expected = ExceptieCNPGresit.class)

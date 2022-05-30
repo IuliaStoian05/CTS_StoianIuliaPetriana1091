@@ -1,4 +1,4 @@
-package cts.testarePersoana;
+package cts.tests.clase.persoana;
 
 public interface IPersoana {
 	public String getSex();

@@ -1,4 +1,4 @@
-package cts.tests;
+package cts.tests.clase.matematica;
 
 import java.util.ArrayList;
 import java.util.List;
